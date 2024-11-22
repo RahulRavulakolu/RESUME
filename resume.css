@@ -1,0 +1,13 @@
+.myphoto{
+    border-radius: 50px;
+    background-attachment: fixed;
+    background-position-x: left;
+}
+.body1{
+    background-color: rgb(90, 61, 24);
+    justify-content: right;
+    text-align: right;
+}
+#about{
+    color: dodgerblue;
+}

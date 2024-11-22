@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #a9a1a1;
+    padding: 2rem;
+}
+
+.body1 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.myphoto img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #eff4ef;
+    float: left;
+    margin-right: 2rem;
+}
+
+.body {
+    margin-left: 220px;
+    padding: 1rem;
+}
+
+.body p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.socialmedia img {
+    transition: transform 0.3s ease;
+}
+
+.socialmedia img:hover {
+    transform: scale(1.1);
+}
+
+.resume {
+    background-color: #3bf648;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.resume:hover {
+    background-color: #25eb3c;
+}
+
+/* Content below image */
+#about {
+    clear: both;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    color: #3b82f6 !important;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #f3f4f6;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button img {
+    width: 24px;
+    height: 24px;
+}
+
+.project1, .project2, .project3 {
+    background-color: #3bf6b2;
+    color: white;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.project1:hover, .project2:hover, .project3:hover {
+    cursor: pointer;
+    align-items: center;
+    background-color: #25ebd1;
+    transform: scale(1.05);
+}
+
+/* Form styling */
+.name, .mail, .message {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #4b5563;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.8rem;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.send a {
+    color: #020306;
+    text-decoration: none;
+}
+
+.send a:hover {
+    text-decoration: underline;
+}
+
+.submit {
+    background-color: #22c55e;
+    color: white !important;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #16a34a;
+}
+.contact{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: rem;
+    font-size: 2rem;
+    color: #050c16 !important;
+}
+.connect{
+    text-align: center;
+    margin-top: rem;
+    margin-bottom: rem;
+    font-size: 2rem;
+    color: #0d0c1cd3 !important;
+}
+.wholecontact{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+
+}
+.tech{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #0a0e15 !important;
+}
+#about{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #03080f !important;
+}
+.projects{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #181d24 !important;
+}
+.about{
+    text-align: center;
+    margin-top: rem;
+    margin-bottom: rem;
+    font-size: 20px;
+    
+}
+.tools{
+    text-align: center;
+    margin-top: rem;
+    margin-bottom: rem;
+    font-size: 20px;
+    
+}
+.message{
+    font-size: 20px;
+}
