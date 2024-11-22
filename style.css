@@ -97,9 +97,9 @@ button img {
     height: 24px;
 }
 
-.project1, .project2, .project3 {
-    background-color: #3bf6b2;
-    color: white;
+.project1, .project2{
+    background-color: #61d2a9;
+    color: rgb(244, 237, 237);
     border-radius: 25px;
     padding: 1rem 2rem;
     margin: 0.5rem;
@@ -107,7 +107,7 @@ button img {
     transition: all 0.3s ease;
 }
 
-.project1:hover, .project2:hover, .project3:hover {
+.project1:hover, .project2:hover{
     cursor: pointer;
     align-items: center;
     background-color: #25ebd1;
@@ -214,4 +214,56 @@ input[type="email"] {
 }
 .message{
     font-size: 20px;
+}
+
+.projects {
+    font-size: 1.5rem;
+    color: #3b82f6;
+    margin: 2rem 0 1rem;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.project-card {
+    background-color: #dde8eb;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    color: #2563eb;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.project-card h4 {
+    color: #4b5563;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.project-card p {
+    margin-bottom: 1rem;
+    color: #4b5563;
+}
+
+.project-card ul {
+    list-style-position: inside;
+    padding-left: 1rem;
+}
+
+.project-card li {
+    margin-bottom: 0.5rem;
+    color: #4b5563;
 }
