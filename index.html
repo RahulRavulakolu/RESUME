@@ -4,93 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="body1">
-    <div class="myphoto">
-    <img src="/r4.png">
-    </div>
-    <div class="body">
-    <h1>Hi,I am Rahul</h1><br>
-    <h2 style="margin-bottom: 10px;">student at K.G reddy college</h2>
-    <p>I am 2nd year AIML student,With a strong foundation in coding and a particular proficiency in Python, I am passionate about software development and problem-solving. I have achieved the 'Gold' rank on HackerRank, showcasing my expertise and commitment to continuous learning and excellence in programming.
-    </p>
-    <br></div>
-    <div class="socialmedia">
-    <a href="https://www.instagram.com/__rahul.2807___/">
-        <img src="https://1000logos.net/wp-content/uploads/2017/02/insta-logo.png" width="40px" height="40px"></a>
-    <a href="https://github.com/RahulRavulakolu"><img src="https://icon2.cleanpng.com/20240213/kl/transparent-github-icon-black-and-white-cat-logo-with-cats-1710879425955.webp" width="40px" height="40px"></a>
-    <a href="https://www.hackerrank.com/profile/rahulrrk2807"><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png" alt=""  width="40px" height="40px"></a>
-    </div>
-        <br>
-    <button class="resume" onclick="">Resume</button>
-    </div>
-    <div ><p id="about" ><b>A bit about Me</b></p></div>
-    <p class="about">Aspiring software developer seeking opportunities to leverage my coding skills<br> and technical knowledge in Python to contribute to innovative projects<br> and grow within a dynamic and challenging environment.</p>
-    <br>
-    <p class="tech"><b>Technologies and Tools</b></p>
-    <br>
-    <div class="tools"><p >Using a combination of cutting-edge technologies and reliable open-source software <br>I build user-focused, performant apps and websites for smartphones, tablets, and desktops.</p>
-        <button><img src="	https://th.bing.com/th/id/OIP.dJToM1TiZiJA0GYwzDHwjQHaHY?rs=1&pid=ImgDetMain" width="30px" height="30px">Python</button>
-        <button><img src="	https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="">HTML</button>
-        <button><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="">CSS</button>
-    </div>
-    <P class="projects"><b>Projects</b></P>
-    <div class="projects-container">
-        <div class="project-card">
-            <h3>Newspaper Title Detection System</h3>
-            <h4>Smart India Hackathon 2024-25</h4>
-            <p>Successfully developed an advanced NLP-based system for detecting and analyzing newspaper titles. Key achievements:</p>
-            <ul>
-                <li>Implemented state-of-the-art Natural Language Processing techniques</li>
-                <li>Achieved high accuracy in title detection and classification</li>
-                <li>Integrated multiple language support for Indian newspapers</li>
-                <li>Delivered a user-friendly interface for title analysis</li>
-                <li>Used Python, TensorFlow, and NLTK for implementation</li>
-            </ul>
-        </div>
+    <header>
+        <!-- <section class="header"> -->
+        <section class="header">
+            <nav class="navbar" >
+                <div id="logo">
+                    <img src="rrk.png"  class="logo">
+                </div>
+                <ul class="nav-links" type="none">
+                        <li class="resumecard">
+                            <a href="#sm"><i class="fa-solid fa-file" ></i>Resume</a>
+                        </li>
+                        <li class="aboutcard">
+                            <a href="#about"><i class="fa-solid fa-address-card"></i>About</a>
+                        </li>
+                        <li class="techcard">
+                            <a href="#A1"><i class="fa-solid fa-screwdriver-wrench"></i>Tools</a>
+                        </li>
+                        <li class="projectcard">
+                            <a href="#bg3"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+                        </li>
+                        <li class="contactcard"><a href="#contact"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+                </ul>
+            </nav>
+        </section>
 
-        <div class="project-card">
-            <h3>AI-Based Text Detection System</h3>
-            <h4>College Hackathon</h4>
-            <ul>
-                <li>Developed a comprehensive text detection system using computer vision techniques</li>
-                <li>Integrated OpenCV for image processing and text region detection</li>
-                <li>Utilized TensorFlow for text recognition and analysis</li>
-                <li>Implemented real-time text detection capabilities</li>
-                <li>Created a robust error handling system</li>
-                <li>Achieved 95% accuracy in text detection across various fonts</li>
-            </ul>
-        </div>
-    </div>
-    <br>
-    <p  class="contact"><b>Contact:</b></p>
-    <br>
-    <p class="connect"><b>Connect with me:</b></p>
-    <br>
-    <div class="wholecontact"><p class="message">
-        If you want to know more about me or my work, ping me at my socials or send me a message.<br>I would be happy to hear from you.
-    </p>
-    <div class="name">
-        <label for="name"><B>Name</B></label><br>
-    <input type="text" class="name" placeholder="Enter your name,,,">
-    </div>
-    <div class="mail">
-        <label for="mail" ><b>E-Mail</b></label><br>
-        <input type="email" class="mail" placeholder="Enter your mail ID...">
-    </div>
-    <div class="message">
-        <label for="message"><b>Message</b></label><br>
-        <input type="text" placeholder="Enter your Mesaage..">
-    </div>
-    <br>
-    <div class="send">
-    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftMJXJdPnQpbJCVmSWqJPwfTqRCqdsDgJBsFkcfKKFLksDpKXnVRjCjPLhDMZfPxKzhHL">Send Me mail directly.</a>
-    </div>
-    <br>
-    <button style="color: chartreuse;" class="submit">Submit</button>
-    </div>
-    </div>
+    </header>
+    <main>
+       <section class="firstbg">
+            <div class="myphoto">
+                <img src="r4.png">
+            </div>
+            <div class="body">
+                <h1>Hi,I am Rahul</h1><br>
+                <h2 >Student at: <br>K.G Reddy College of Engineering and Technology </h2>
+                <p>I am 2nd year AIML student,With a strong foundation in coding and a particular proficiency in Python, I am passionate about software development and problem-solving. I have achieved the 'Gold' rank on HackerRank, showcasing my expertise and commitment to continuous learning and excellence in programming.
+                </p>
+            </div><br>
+            <div class="socialmedia" id="sm" >
+                <a href="https://www.instagram.com/__rahul.2807___/">
+                    <img src="https://img.icons8.com/?size=96&id=Xy10Jcu1L2Su&format=png" width="50px" height="50px"></a>
+                <a href="https://github.com/RahulRavulakolu"><img src="https://icon2.cleanpng.com/20240213/kl/transparent-github-icon-black-and-white-cat-logo-with-cats-1710879425955.webp" width="40px" height="40px"></a>
+                <a href="https://www.hackerrank.com/profile/rahulrrk2807"><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png" alt=""  width="40px" height="40px"></a>
+            </div>
+            <div class="button"> 
+                <a class="resume" href="Resume.pdf" download="My_Resume.pdf">
+                    <button class="resume" id="resume"  onclick="">Resume</button>
+                </a>
+            </div>
+        </section>
+        <section class="secbg">
+            <div ><p id="about" ><b>A bit about Me</b></p></div>
+            <p class="about" id="A1">Aspiring software developer seeking opportunities to leverage my coding skills<br> and technical knowledge in Python to contribute to innovative projects<br> and grow within a dynamic and challenging environment.</p>
+            <br>
+            <p class="tech" id="tech"><b>Technologies and Tools</b></p>
+            <br>
+            <div class="tools">
+                <p >Using a combination of cutting-edge technologies and reliable open-source software <br>I build user-focused, performant apps and websites for smartphones, tablets, and desktops.</p>
+                <button><img src="	https://th.bing.com/th/id/OIP.dJToM1TiZiJA0GYwzDHwjQHaHY?rs=1&pid=ImgDetMain" width="30px" height="30px">Python</button>
+                <button><img src="	https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">HTML</button>
+                <button><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS">CSS</button>
+                <button><img src="https://cdn-icons-png.flaticon.com/128/5968/5968672.png" alt="BOOTSTRAP">BootStrap</button>
+            </div>
+        </section>
+        <section class="thirdbg" id="bg3">
+            <P class="projects" id="projects"><b>Projects</b></P>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Newspaper Title Detection System</h3>
+                    <h4>Smart India Hackathon 2024-25</h4>
+                    <p>Successfully developed an advanced NLP-based system for detecting and analyzing newspaper titles. Key achievements:</p>
+                    <ul>
+                        <li>Implemented state-of-the-art Natural Language Processing techniques</li>
+                        <li>Achieved high accuracy in title detection and classification</li>
+                        <li>Integrated multiple language support for Indian newspapers</li>
+                        <li>Delivered a user-friendly interface for title analysis</li>
+                        <li>Used Python, TensorFlow, and NLTK for implementation</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <h3>AI-Based Text Detection System</h3>
+                    <h4>College Hackathon</h4>
+                    <ul>
+                        <li>Developed a comprehensive text detection system using computer vision techniques</li>
+                        <li>Integrated OpenCV for image processing and text region detection</li>
+                        <li>Utilized TensorFlow for text recognition and analysis</li>
+                        <li>Implemented real-time text detection capabilities</li>
+                        <li>Created a robust error handling system</li>
+                        <li>Achieved 95% accuracy in text detection across various fonts</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <br>
+    </main>
+    <footer>
+        <section class="fourbg" id="contact">
+            <p  class="contact" ><b>Contact:</b></p>
+            <hr>
+            <br>
+            <p class="connect"><b>Connect with me:</b></p>
+            <br>
+            <div class="wholecontact">
+                <p class="message">
+                    If you want to know more about me or my work, ping me at my socials or send me a message.<br>I would be happy to hear from you.
+                </p>
+            </div>
+            <div class="name">
+                <label for="name"><B>Name</B></label><br>
+                <input type="text" class="name" placeholder="Enter your name,,,">
+            </div>
+            <div class="mail">
+                <label for="mail" ><b>E-Mail</b></label><br>
+                <input type="email" class="mail" placeholder="Enter your mail ID...">
+            </div>
+            <div class="message">
+                <label for="message"><b>Message</b></label><br>
+                <input type="text" placeholder="Enter your Mesaage..">
+            </div>
+            <br>
+            <div class="send">
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftMJXJdPnQpbJCVmSWqJPwfTqRCqdsDgJBsFkcfKKFLksDpKXnVRjCjPLhDMZfPxKzhHL">Send Me mail directly.</a>
+            </div>
+            <br>
+            <button style="color: chartreuse;" class="submit">Submit</button>
+        </section>
+    </footer>
 </body>
 </html>
+
